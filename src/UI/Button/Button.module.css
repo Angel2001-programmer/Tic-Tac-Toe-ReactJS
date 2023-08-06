@@ -1,0 +1,31 @@
+button{
+    border: 0;
+}
+
+.button{
+    background-color: rgb(37, 189, 138);
+    width: fit-content;
+    width: 150px;
+    height: 150px;
+    border-radius: 14px;
+    box-shadow: 2px 3px 5px 0 rgba(2, 2, 2, 0.377);
+}
+
+.button:active{
+    background-color: rgb(31, 150, 110);
+}
+
+.button:disabled{
+    background-color: rgb(39, 202, 151);
+}
+
+button{
+    stroke: none;
+}
+
+h1, .button {
+    display: flex;
+    font-size: 75px;
+    justify-content: center;
+    align-items: center;
+}

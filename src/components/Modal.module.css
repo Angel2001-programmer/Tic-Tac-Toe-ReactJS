@@ -1,0 +1,24 @@
+.content{
+    position: absolute;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    background-color: white;
+    height: 250px;
+    width: 30%;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
